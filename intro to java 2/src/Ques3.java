@@ -1,7 +1,7 @@
 
 class Demo
 {
-    //empty class
+    //empty class wil delete after compiling
 }
 public class Ques3
 {
