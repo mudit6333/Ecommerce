@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+//Create a custom exception that do not have any stack trace.
 
 class ClassIdNotFoundException extends Exception {
     public ClassIdNotFoundException(String msg, boolean enableSuppression, boolean writableStackTrace) {

@@ -1,3 +1,4 @@
+//Write a program to sort Employee objects based on highest salary using Comparator. Employee class{ Double Age; Double Salary; String Name
 import java.util.*;
 
 class Employees {

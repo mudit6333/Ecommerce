@@ -1,3 +1,7 @@
+//Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull()
+// and an additional operation getMin()
+// which should return minimum element from the SpecialStack. (Expected complexity ­ O(1))
+
 import java.util.Stack;
 
 class SpecialStack extends Stack<Integer> {
@@ -30,6 +34,7 @@ class SpecialStack extends Stack<Integer> {
         return x;
     }
 }
+
 public class Ques7 {
     public static void main(String[] args) {
         SpecialStack s = new SpecialStack();

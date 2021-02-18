@@ -1,4 +1,4 @@
-
+// WAP to produce NoClassDefFoundError and ClassNotFoundException exception.
 class Demo
 {
     //empty class wil delete after compiling

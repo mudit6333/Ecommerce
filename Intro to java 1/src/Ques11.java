@@ -1,3 +1,5 @@
+//Create 3 sub class of bank SBI,BOI,ICICI
+// all 4 should have method called getDetails which provide there specific details like rateofinterest etc,print details of every banks
 class Bank {
     public void getDetails() {
         System.out.println("Details of the bank :");

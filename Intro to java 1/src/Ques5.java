@@ -1,3 +1,4 @@
+//Find common elements between two arrays
 public class Ques5 {
     public static void main(String[] args) {
         String[] numArray1 = {"Java", "Scala", "Python"};

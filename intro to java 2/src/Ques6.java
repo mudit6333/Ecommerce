@@ -1,3 +1,4 @@
+// WAP showing try, multi-catch and finally
 public class Ques6 {
     public static void main(String args[]) {
 

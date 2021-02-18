@@ -1,3 +1,6 @@
+// Design classes having attributes for furniture where there are wooden chairs and tables, metal chairs and tables.
+// There are stress and fire tests for each products.
+
 import java.util.Scanner;
 
 interface Furniture {

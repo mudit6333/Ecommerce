@@ -1,3 +1,4 @@
+//Write a program to format date as example "21-March-2016"
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

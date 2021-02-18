@@ -1,3 +1,5 @@
+//There is an array with every element repeated twice except one. Find that element
+
 
 // xor of same number is 0 and xor of 0 and any number is that number
 public class Ques6 {

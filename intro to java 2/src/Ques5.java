@@ -1,3 +1,5 @@
+//WAP to show object cloning in java using cloneable and copy constructor both.
+
 
 //CLONING THROUGH CLONEABLE INTERFACE
 class Course implements Cloneable {

@@ -1,3 +1,5 @@
+//Create Java classes having suitable attributes for Library management system.
+//        Use OOPs concepts in your design.Also try to use interfaces and abstract classes.
 
 import java.util.Scanner;
 

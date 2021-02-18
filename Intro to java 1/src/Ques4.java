@@ -1,3 +1,4 @@
+//Calculate the number & Percentage Of Lowercase Letters,Uppercase Letters, Digits And Other Special Characters In A String
 public class Ques4 {
     public static void main(String[] args) {
         String str = " #My phone number is 7053572542 my id is Vinay.Singh@gmail.com #";

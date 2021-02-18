@@ -1,3 +1,5 @@
+//WAP to create singleton class.
+
 class Singleton {
     //static variable obj of type Singleton
     private static Singleton obj = null;

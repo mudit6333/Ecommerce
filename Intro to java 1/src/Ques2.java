@@ -1,4 +1,8 @@
-//assumption:twice aor Twice both are same
+//Write a program to find the number of occurrences of the duplicate words in a string and print them ?
+
+
+
+//assumption:twice or Twice both are same
 
 public class Ques2 {
     public static void main(String[] args) {
