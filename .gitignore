@@ -1,2 +1,5 @@
 collection.iml
 out
+
+*.iml
+*.idea
