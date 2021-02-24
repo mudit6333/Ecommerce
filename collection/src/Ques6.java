@@ -2,10 +2,11 @@
 
 import java.util.Map;
 import java.util.*;
+
 public class Ques6 {
     public static void main(String[] args) {
-        int array[] = {5, 2, 8, 8, 5, 5, 8, 1, 1, 2};
-        HashMap<Integer, Integer> data = new HashMap<Integer, Integer>();
+        int array[] = {5, 5, 8, 2, 8, 5, 5, 8, 1, 1, 2, 2};
+        LinkedHashMap<Integer, Integer> data = new LinkedHashMap<Integer, Integer>();
 
         for (int j : array) {
             if (data.containsKey(j)) {
@@ -16,9 +17,8 @@ public class Ques6 {
             }
         }
 
-        Set<Map.Entry<Integer, Integer>> set = data.entrySet();
 
-        ArrayList<Map.Entry<Integer, Integer>> list = new ArrayList<Map.Entry<Integer, Integer>>(set);
+        ArrayList<Map.Entry<Integer, Integer>> list = new ArrayList<Map.Entry<Integer, Integer>>(data.entrySet());
 
         Collections.sort(list, (o1, o2) -> (o2.getValue()).compareTo(o1.getValue()));
         /*Collections.sort(list, new Comparator<Map.Entry<Integer, Integer>>() {
