@@ -26,10 +26,11 @@ public class Traveller {
     */
 
     //Ques3 @Components and @Autowired
-    @Autowired
+  
     Vehicle vehicle;
 
     //Ques 6 Perform Constructor Injection in a Spring Bean
+    @Autowired
     public Traveller(Vehicle vehicle) {
         super();
         this.vehicle = vehicle;
