@@ -1,13 +1,16 @@
 package com.SpringBoot.SpringRestfulWeb.Ques2to9;
 
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
+@ApiModel(value = "Employee",description="Employee class with employee parameters")
 public class Employee {
     private int id;
     @Size(min = 2, message = "minimum length required is 2")
+    @ApiModelProperty(notes="Minimum length required is 2")
     private String name;
 
     @Min(value = 18, message = "Employee must be an adult")
