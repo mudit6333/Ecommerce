@@ -1,4 +1,4 @@
-package com.SpringBoot.SpringRestfulWeb.Ques2to9;
+package com.SpringBoot.SpringRestfulWeb.Employee;
 
 
 import io.swagger.annotations.ApiModelProperty;
