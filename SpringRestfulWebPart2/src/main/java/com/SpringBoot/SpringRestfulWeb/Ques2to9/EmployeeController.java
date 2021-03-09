@@ -20,12 +20,14 @@ public class EmployeeController {
 
 
     @GetMapping("/employee")
+    @ApiModelProperty(notes = "Get all employee details")
     public List<Employee> retrieveAllEmployees() {
         return employeeDaoService.findAll();
     }
 
 
     @GetMapping("/employee/{id}")
+    @ApiModelProperty(notes = "Get specific employee details")
     public Employee retrieveOneUser(@PathVariable int id) {
         Employee employee = employeeDaoService.findOne(id);
         
