@@ -8,12 +8,15 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class Hibernatepart3Application {
 
-	public static void main(String[] args) {
-	ApplicationContext applicationContext= SpringApplication.run(Hibernatepart3Application.class, args);
+    public static void main(String[] args) {
+        ApplicationContext applicationContext = SpringApplication.run(Hibernatepart3Application.class, args);
 
-		AuthorService authorService=applicationContext.getBean(AuthorService.class);
-		authorService.saveAuthor();
-
-	}
+        AuthorService authorService = applicationContext.getBean(AuthorService.class);
+        //	authorService.saveAuthor();
+        //authorService.saveAuthorOnetoOne();
+       // authorService.saveAuthorManytoMany();
+      //  authorService.saveAuthorOnetoMany();
+        authorService.saveOtoMBidirectional();
+    }
 
 }
